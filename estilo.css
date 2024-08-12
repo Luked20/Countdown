@@ -1,0 +1,112 @@
+body{
+    font-family: arial, sans-serif;
+    background-image: url(bg-2.jpg) ;
+    margin: 0;
+}
+
+
+
+
+.hero-content{
+    
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+.hero-content p{
+    background-color: rgba(0,0,0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+
+
+.top-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+.top-bar p{
+margin: 0;
+text-align: right;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+#countdown {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizar o texto dentro da contagem regressiva */
+#countdown-timer {
+    font-weight: bold;
+    color: #007bff; /* Cor azul para destacar */
+}
+
+/* Adicionar uma animação de piscar para chamar atenção */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+
+/* Melhorar a responsividade */
+@media (max-width: 600px) {
+    #countdown {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
+
+.content-header{
+    border-bottom: solid 2px #ccc;
+	padding: 10px;
+	
+	background: #eee;
+}
+.content-header h2{
+    margin:0;
+}
+
+.rodape{
+    height: 80px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	background: #6b6c68;
+    line-height: 80px;
+}
